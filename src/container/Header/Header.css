@@ -1,0 +1,16 @@
+.rehas__header{
+    background-color: var(--color-black);
+}
+
+.rehas__header-h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 118px;
+    font-size: 90px;
+}
+
+.rehas__header-imh img{
+    width: 80%;
+}
