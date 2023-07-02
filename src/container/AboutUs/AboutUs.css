@@ -54,7 +54,7 @@
     color: var(--color-grey);
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (max-width: 2000px) {
     .rehas__aboutus-content_knife img {
         height: 1110px;
     }
