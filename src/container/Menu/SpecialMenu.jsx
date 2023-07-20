@@ -11,7 +11,7 @@ const SpecialMenu = () => {
       </div>
       <div className="rehas__specialMenu-menu">
         <div className="rehas__specialMenu-menu_wine flex__center">
-          <p className="rehas__spcielMenu_menu_heading">Wine & Beer</p>
+          <p className="rehas__spcielMenu-menu_heading">Wine & Beer</p>
           <div className="rehas__specialMenu-menu_items">
             {data.wines.map((wine, index) => (
               <MenuItem
@@ -29,7 +29,7 @@ const SpecialMenu = () => {
         </div>
 
         <div className="rehas__specialMenu-menu_cocktails flex__center">
-          <p className="rehas__spcielMenu_menu_heading">Wine & Beer</p>
+          <p className="rehas__spcielMenu-menu_heading">Cocktails</p>
           <div className="rehas__specialMenu-menu_items">
             {data.cocktails.map((cocktail, index) => (
               <MenuItem
